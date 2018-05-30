@@ -13,4 +13,6 @@ parameters:
     excludes_analyse:
             - %rootDir%/../../../tests/*
             - %rootDir%/../../../database/*
+            - %rootDir%/../../../routes/*
+            - %rootDir%/../../../app/Exceptions/*
 

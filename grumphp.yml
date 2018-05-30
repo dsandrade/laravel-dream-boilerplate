@@ -10,7 +10,7 @@ parameters:
             level: ~
             verbose: true
         phpmd:
-            exclude: ['tests', 'database']
+            exclude: ['tests', 'database', 'app/Console']
             ruleset: ['phpmd.xml']
             triggered_by: ['php']
         phpstan:
