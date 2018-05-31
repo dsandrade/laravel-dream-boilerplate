@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => App\User::class,
+        'model' => Dream\Boilerplate\Models\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
